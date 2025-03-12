@@ -59,7 +59,11 @@ The webhook link: ```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-fr
 
 The code aims to place an order as soon as it receives an alert containing the name of the peer and close along when you press enter you can modify the code to follow one of your strategies so that they are 100% automated.
 
-side:   1 = Long 2 = Short 3 = Close Short  4 = Close Long
+**side:**  
+1 = Long 
+2 = Short 
+3 = Close Short  
+4 = Close Long
 
 
 
