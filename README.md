@@ -35,17 +35,17 @@ Just add /webhook at the end like that:
 
 6. Récuperer les cookies de connexion MEXC.
 
-  6.1 Connectez vous à votre compte MEXC:
+ *6.1 Connectez vous à votre compte MEXC:*
    ```https://www.mexc.com/fr-FR```
 
-  6.2 Go on BTC_USDT Futures Traiding page:
+  *6.2 Go on BTC_USDT Futures Traiding page:*
   ```https://futures.mexc.com/fr-FR/exchange/BTC_USDT``` 
   
-  6.3 Right click and open Devtool, go on **Application** then **Cookies** then **https://futures.mexc.com/** and click on u_id token and copy.
+  *6.3 Right click and open Devtool, go on **Application** then **Cookies** then **https://futures.mexc.com/** and click on u_id token and copy.*
 
   ![image](https://github.com/user-attachments/assets/16e63f95-7cd3-4ea7-97cd-8368676d44e5)
 
-  6.3.2 Then paste on the code at to part:
+  *6.3.2 Then paste on the code at to part:*
 
   ![image](https://github.com/user-attachments/assets/8a5c2d6d-2998-444e-beb5-eb64b0703dfc)
 
