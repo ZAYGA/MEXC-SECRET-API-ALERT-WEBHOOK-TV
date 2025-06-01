@@ -20,7 +20,7 @@ pip install requests curl-cffi Flask
 https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
 ```
 
-Official link : 
+__Official link :__
 ```bash
 https://ngrok.com/
 ```
@@ -45,17 +45,24 @@ https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app
 ```
 
 Just add /webhook at the end like that:
-```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook ```
+
+```bash
+https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook
+```
 
 ![image](https://github.com/user-attachments/assets/22e84b59-810a-4865-9747-f0bb83a1a561)
 
 ## 6. Récuperer les cookies de connexion MEXC. (use chrome)
 
  *6.1 Connectez vous à votre compte MEXC:*
-   ```https://www.mexc.com/fr-FR```
+ ```bash
+ https://www.mexc.com/fr-FR
+```
 
   *6.2 Go on BTC_USDT Futures Traiding page:*
-  ```https://futures.mexc.com/fr-FR/exchange/BTC_USDT``` 
+  ```bash
+  https://futures.mexc.com/fr-FR/exchange/BTC_USDT
+  ``` 
   
   *6.3 Right click and open Devtool, go on **Application** then **Cookies** then **https://futures.mexc.com/** and click on u_id token and copy.*
 
@@ -71,7 +78,7 @@ Just add /webhook at the end like that:
     "pair": "BTC"
 }```
 
-The webhook link: ```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook ```
+The webhook link (exemple): ```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook ```
 
 The code aims to place an order as soon as it receives an alert containing the name of the peer and close along when you press enter you can modify the code to follow one of your strategies so that they are 100% automated.
 
