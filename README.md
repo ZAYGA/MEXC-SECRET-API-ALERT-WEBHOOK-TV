@@ -1,22 +1,23 @@
 # MEXC-SECRET-API-ALERT-WEBHOOK-TV
 
-### 1. Firt choose your folder.
+## 1. Firt choose your folder.
 
-### 2. Then copy repo Github.
+## 2. Then copy repo Github.
    
-```git clone https://github.com/ZAYGA/MEXC-SECRET-API-ALERT-WEBHOOK-TV.git```
+```bash
+git clone https://github.com/ZAYGA/MEXC-SECRET-API-ALERT-WEBHOOK-TV.git
 
-### 3. Install the librairies:
+## 3. Install the librairies:
 
 ```pip install requests curl-cffi Flask```
 
-### 4. Install nrgok to receive Trading View alert webhook or others
+## 4. Install nrgok to receive Trading View alert webhook or others
 
 ```https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip```
 
 Official link : ```https://ngrok.com/```
 
-### 5. Start Ngrok and retrieved your login credentials:
+## 5. Start Ngrok and retrieved your login credentials:
 
 ```https://dashboard.ngrok.com/get-started/setup/windows```
 ![image](https://github.com/user-attachments/assets/854ca53c-cdf5-4692-925a-8940b5dca9e1)
@@ -33,7 +34,7 @@ Just add /webhook at the end like that:
 
 ![image](https://github.com/user-attachments/assets/22e84b59-810a-4865-9747-f0bb83a1a561)
 
-### 6. Récuperer les cookies de connexion MEXC. (use chrome)
+## 6. Récuperer les cookies de connexion MEXC. (use chrome)
 
  *6.1 Connectez vous à votre compte MEXC:*
    ```https://www.mexc.com/fr-FR```
@@ -49,7 +50,7 @@ Just add /webhook at the end like that:
 
   ![image](https://github.com/user-attachments/assets/8a5c2d6d-2998-444e-beb5-eb64b0703dfc)
 
-### 7. Create a webhook alert on traiding in object copy and paste that:
+## 7. Create a webhook alert on traiding in object copy and paste that:
 
    The pair: ```{
     "pair": "BTC"
