@@ -6,28 +6,43 @@
    
 ```bash
 git clone https://github.com/ZAYGA/MEXC-SECRET-API-ALERT-WEBHOOK-TV.git
+```
 
 ## 3. Install the librairies:
 
-```pip install requests curl-cffi Flask```
+```bash
+pip install requests curl-cffi Flask
+```
 
 ## 4. Install nrgok to receive Trading View alert webhook or others
 
-```https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip```
+```bash
+https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+```
 
-Official link : ```https://ngrok.com/```
+Official link : 
+```bash
+https://ngrok.com/
+```
 
 ## 5. Start Ngrok and retrieved your login credentials:
 
-```https://dashboard.ngrok.com/get-started/setup/windows```
+```bash
+https://dashboard.ngrok.com/get-started/setup/windows
+```
 ![image](https://github.com/user-attachments/assets/854ca53c-cdf5-4692-925a-8940b5dca9e1)
 
 Copy and paste on ngrok, now you are conected, then Choose the port to listen here is 5000
 
-```ngrok http 5000```
+```bash
+ngrok http 5000
+```
 
 Now you liste the 5000 port. They give you thise link:
-```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app```
+
+```bash
+https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app
+```
 
 Just add /webhook at the end like that:
 ```https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook ```
