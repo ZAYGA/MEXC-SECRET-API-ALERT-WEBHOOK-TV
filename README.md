@@ -94,4 +94,7 @@ The code aims to place an order as soon as it receives an alert containing the n
 4 = Close Long 
 
 
-
+## 8.  Start Algo
+```bash
+python lanite_v_14.py
+```
