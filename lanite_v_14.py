@@ -5,7 +5,11 @@ import time
 from curl_cffi import requests
 from pprint import pprint
 from flask import Flask, request, jsonify
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+key = os.getenv("MEXC_API_KEY")
 
 app = Flask(__name__)
 
@@ -89,7 +93,7 @@ def place_order(key, obj, url):
     }
     response = requests.post(url, headers=headers, json=obj)
     return response.json()
-key = 'WEBa50844a1eb11fcff45b013307ae241f73cd8cb34be087527bd2293ae67f534cc'
+key = 'WEB87bf8dbf95937c7429b2aa67725b04e2ca8c45c0a45a34fb1dbc3843f600597c'
 obj = { 
     "symbol": f"{symbol}", 
     "side": 1, 
@@ -107,7 +111,7 @@ url = 'https://futures.mexc.com/api/v1/private/order/create'
 #print(response)
 
 
-KEY = 'WEBa50844a1eb11fcff45b013307ae241f73cd8cb34be087527bd2293ae67f534cc'
+KEY = 'WEB87bf8dbf95937c7429b2aa67725b04e2ca8c45c0a45a34fb1dbc3843f600597c'
 INTERVAL = 1 # en secondes
 HEADERS = {
     'Content-Type': 'application/json',
@@ -153,8 +157,12 @@ def get_open_positions():
 
 
 
+def compute_vol(symbol, usdt_size, price, leverage=1):
+    res = requests.get('https://futures.mexc.com/api/v1/contract/detailV2?client=web')
+    cs = [i['cs'] for i in res.json()['data'] if i['symbol'] == symbol][0]
+    return round(usdt_size / (cs * price)) * leverage
 
-
+compute_vol('BTC_USDT', 10, 80000, 1)
 
 
 
@@ -257,15 +265,13 @@ def main():
     else:
         print(f"Erreur lors du déplacement de l'ordre : {data['message']}")
 
-
-
 main()
 
 
 
 #à rentrer dans ngrok
 
-# 1) L'authentification:                              ngrok config add-authtoken 2QFZkFoC0WF50pW4NEd9He65l2b_7FymBPYU3WMidTcQ8sRx
+# 1) L'authentification:                              ngrok config add-authtoken 2QFZkFoC0WF50pW4NEd9He65l2b_?????????????????
 
 # 2) Surveiller le localhost:                         ngrok http 5000
 
