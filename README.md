@@ -70,7 +70,8 @@ https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook
 
   *6.3.2 Then paste on the code at to part:*
 
-  ![image](https://github.com/user-attachments/assets/8a5c2d6d-2998-444e-beb5-eb64b0703dfc)
+  ![image](https://github.com/user-attachments/assets/0557b7f7-3dea-4925-a88a-82c815624641)
+
 
 ## 7. Create a webhook alert on traiding in object copy and paste that:
 
