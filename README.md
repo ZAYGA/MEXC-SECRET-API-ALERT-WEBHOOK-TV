@@ -2,6 +2,10 @@
 
 ## 1. Firt choose your folder.
 
+```bash
+mkdir MEXC_SECRET_API && cd MEXC_SECRET_API
+```
+
 ## 2. Then copy repo Github.
    
 ```bash
