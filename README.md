@@ -56,23 +56,28 @@ https://9417-2a01-cb19-6d9-300-7c84-8278-6114-30b2.ngrok-free.app/webhook
 
 ![image](https://github.com/user-attachments/assets/22e84b59-810a-4865-9747-f0bb83a1a561)
 
-## 6. Récuperer les cookies de connexion MEXC. (use chrome)
+## 6. Retrieve MEXC login cookies. (use chrome)
 
- *6.1 Connectez vous à votre compte MEXC:*
+*6.1 Creat MEXC account (referral)
+```bash
+https://promote.mexc.com/r/g3RinJco
+```
+
+ *6.2 Log in to your MEXC account:*
  ```bash
  https://www.mexc.com/fr-FR
 ```
 
-  *6.2 Go on BTC_USDT Futures Traiding page:*
+  *6.3 Go on BTC_USDT Perp Futures Traiding page:*
   ```bash
   https://futures.mexc.com/fr-FR/exchange/BTC_USDT
   ``` 
   
-  *6.3 Right click and open Devtool, go on **Application** then **Cookies** then **https://futures.mexc.com/** and click on u_id token and copy.*
+  *6.4.1 Right click and open Devtool, go on **Application** then **Cookies** then **https://futures.mexc.com/** and click on u_id token and copy.*
 
   ![image](https://github.com/user-attachments/assets/16e63f95-7cd3-4ea7-97cd-8368676d44e5)
 
-  *6.3.2 Then paste on the code at to part:*
+  *6.4.2 Then paste on the code at to part:*
 
   ![image](https://github.com/user-attachments/assets/0557b7f7-3dea-4925-a88a-82c815624641)
 
