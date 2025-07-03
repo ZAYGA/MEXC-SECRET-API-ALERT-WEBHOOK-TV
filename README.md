@@ -105,7 +105,9 @@ python lanite_v_14.py
 ```
 
 Warning this is not a financial advice make your own research.
+
 If you want to support me you can use this referal link:
 https://promote.mexc.com/r/g3RinJco
+
 If you have any questions, contact me on discord at: 
 zaygargon2
